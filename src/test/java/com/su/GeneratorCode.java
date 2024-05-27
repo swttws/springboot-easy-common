@@ -22,7 +22,6 @@ public class GeneratorCode {
                 "root","217812.com")
                 .globalConfig(builder -> {
                     builder.author("swt 2023-2-20") // 设置作者
-                            .fileOverride()
                             .outputDir("D:\\java-mianshi\\Audition\\java-PlateForm-app\\src\\main\\java")
                             .enableSwagger(); // 开启 swagger 模式
                 })
